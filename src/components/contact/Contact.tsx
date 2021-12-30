@@ -13,7 +13,7 @@ function Contact() {
 
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div className="contact-about">
-                            <h3>{ Constants.BRAND }</h3>
+                            <h3>{Constants.BRAND}</h3>
                             <p>we are specialist Information Technology agency that has the professional technical expertise and the bussiness solution offer as a service that is both personal and professional.</p>
                             <div className="social-links">
                                 <a href="#twitter" className="twitter"><i className="bi bi-twitter"></i></a>
@@ -45,7 +45,7 @@ function Contact() {
                     </div>
 
                     <div className="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-                        <form>
+                        <form className="php-email-form">
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
                             </div>
