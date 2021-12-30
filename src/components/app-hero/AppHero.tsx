@@ -1,3 +1,5 @@
+import Constants from "../../common/Constants"
+
 function AppHero() {
     return (
         <section id="hero" className="d-flex align-items-center">
@@ -10,7 +12,7 @@ function AppHero() {
                     </div>
 
                     <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1 data-aos="fade-up">Grow your business with No name</h1>
+                        <h1 data-aos="fade-up">Grow your business with { Constants.BRAND }</h1>
                         <h2 data-aos="fade-up" data-aos-delay="400" className="aos-init aos-animate">W e
                             <pre>    B u i l d<pre>               T h e<pre>                        B e s t</pre></pre></pre></h2>
                         <div data-aos="fade-up" data-aos-delay="800">

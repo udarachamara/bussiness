@@ -1,3 +1,5 @@
+import Constants from "../../common/Constants"
+
 function Contact() {
     return (
         <section id="contact" className="contact">
@@ -11,13 +13,13 @@ function Contact() {
 
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div className="contact-about">
-                            <h3>Vesperr</h3>
-                            <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            <h3>{ Constants.BRAND }</h3>
+                            <p>we are specialist Information Technology agency that has the professional technical expertise and the bussiness solution offer as a service that is both personal and professional.</p>
                             <div className="social-links">
-                                <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-                                <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                                <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                <a href="#twitter" className="twitter"><i className="bi bi-twitter"></i></a>
+                                <a href="#facebook" className="facebook"><i className="bi bi-facebook"></i></a>
+                                <a href="#instagram" className="instagram"><i className="bi bi-instagram"></i></a>
+                                <a href="#linkedin" className="linkedin"><i className="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +45,7 @@ function Contact() {
                     </div>
 
                     <div className="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-                        <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                        <form>
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
                             </div>
