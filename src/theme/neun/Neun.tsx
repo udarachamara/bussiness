@@ -20,8 +20,6 @@ function Neun() {
             <About/>
             <Counts/>
             <Services/>
-            {/* <Testimonials/>
-            <Portfolio/> */}
             <Contact/>
 
             <AppFooter/>
