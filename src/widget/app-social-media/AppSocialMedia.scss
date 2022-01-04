@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+    .social-all {
+        z-index: 10000;
+        .social {
+            position: fixed;
+            z-index: 10000;
+            display: flex;
+            background: rgb(255, 255, 255);
+            width: 100%;
+            margin: 0px;
+            justify-content: center;
+            right: 0px;
+            bottom: 0px;
+            border-radius: 20px 20px 0px 0px;
+            .icon {
+                width: 35px;
+                height: 35px;
+                font-size: 20px;
+            }
+        }
+    }
+}

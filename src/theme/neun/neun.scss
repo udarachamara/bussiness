@@ -1,0 +1,119 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+#vedioBg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(0.55);
+}
+
+#header {
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 8px 0;
+    background: #a79da473;
+}
+
+.brandN {
+    color: #ef7f0c;
+}
+
+.brand-text {
+    color: #0c0702;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #ffe77a;
+}
+
+.navbar-mobile a {
+    color: #000000;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile .active:focus,
+.navbar-mobile li:hover>a {
+    color: #685606;
+}
+
+// .hero-img {
+//     display: none;
+// }
+.hero-brand {
+    color: #fff;
+}
+
+#hero h2 {
+    color: #f7f7f7;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 900px) {
+    .social-all .social {
+        background: #a79da473;
+    }
+}
+
+.services .icon-box {
+    background: #ffffff70;
+}
+
+#about p {
+    text-align: justify;
+}
+
+.counts .content .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #cdc8c8;
+}
+
+.contact .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #cdc8c8;
+}
+
+.contact .info {
+    color: #cdc8c8;
+}
+
+#footer {
+    z-index: 10;
+    position: relative;
+}

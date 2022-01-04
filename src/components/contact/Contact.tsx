@@ -13,7 +13,7 @@ function Contact() {
 
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div className="contact-about">
-                            <h3>{Constants.BRAND}</h3>
+                            <h3>{Constants.BRAND_SORT}</h3>
                             <p>we are specialist Information Technology agency that has the professional technical expertise and the bussiness solution offer as a service that is both personal and professional.</p>
                             <div className="social-links">
                                 <a href="#twitter" className="twitter"><i className="bi bi-twitter"></i></a>
@@ -28,17 +28,21 @@ function Contact() {
                         <div className="info">
                             <div>
                                 <i className="ri-map-pin-line"></i>
-                                <p>A108 Adam Street<br />New York, NY 535022</p>
+                                <p>
+                                    {Constants.SITE_ADDRESS_LINE1}
+                                    <br />
+                                    {Constants.SITE_ADDRESS_LINE2}
+                                </p>
                             </div>
 
                             <div>
                                 <i className="ri-mail-send-line"></i>
-                                <p>info@example.com</p>
+                                <p>{Constants.SITE_EMAIl}</p>
                             </div>
 
                             <div>
                                 <i className="ri-phone-line"></i>
-                                <p>+1 5589 55488 55s</p>
+                                <p>{Constants.SITE_PHONE}</p>
                             </div>
 
                         </div>

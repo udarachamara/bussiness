@@ -4,13 +4,14 @@ import {
   USER_LOGOUT,
   AUTH_USER_FAILED,
   USER_LOGOUT_FAILED,
-  USER_LOGOUT_SUCCEEDED
+  USER_LOGOUT_SUCCEEDED,
+  TOGGLE_SOCIAL_ICONS
 } from "../../common/ActionTypes";
 
 const initialState = {
   user: [] as any,
-  tags: [] as any,
-  posts: [] as any,
+  data: [] as any,
+  socialIconsInMenu: false,
   error: [] as any,
   loading: false,
 };
@@ -52,6 +53,10 @@ function rootReducer(state = initialState, { type, payload }: any) {
         user: [],
         loading: false,
         error: payload
+      });
+    case TOGGLE_SOCIAL_ICONS:
+      return Object.assign({}, state, {
+        socialIconsInMenu: !state.socialIconsInMenu
       });
     default:
       return state

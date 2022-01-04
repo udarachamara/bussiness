@@ -1,3 +1,4 @@
+import './AppFooter.scss'
 import Constants from "../../common/Constants"
 
 function AppFooter() {

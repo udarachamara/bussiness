@@ -2,8 +2,7 @@ import {
   REGISTER_USER,
   AUTH_USER,
   USER_LOGOUT,
-  AUTH_USER_SUCCEEDED,
-  AUTH_USER_FAILED
+  TOGGLE_SOCIAL_ICONS
 } from "../../common/ActionTypes";
 
 export function authUser(payload: any) {
@@ -16,4 +15,8 @@ export function logOutUser(payload: any) {
 
 export function registerUser(payload: any) {
   return { type: REGISTER_USER, payload };
+}
+
+export function toggleSocialIcons(payload: any) {
+  return { type: TOGGLE_SOCIAL_ICONS, payload }
 }

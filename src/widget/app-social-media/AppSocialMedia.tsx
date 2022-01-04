@@ -1,22 +1,22 @@
-function AppSocialMedia() {
-    return (
-        <div className="all">
-            <div className="social" data-aos="fade-left">
+import store from '../../redux/store'
+import './AppSocialMedia.scss'
+import SocialIcons from './SocialIcons'
 
-                <div className="icon">
-                    <i className="fa fa-facebook" aria-hidden="true"></i>
-                </div>
-                <div className="icon">
-                    <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                </div>
-                <div className="icon">
-                    <i className="fa fa-instagram" aria-hidden="true"></i>
-                </div>
-                <div className="icon">
-                    <i className="fa fa-twitter" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
+function AppSocialMedia() {
+    let state = store.getState()
+    return (
+        <>
+            {
+                !state.socialIconsInMenu ?
+                    <div className="all social-all">
+                        <div className="social" data-aos="fade-left">
+                            <SocialIcons />
+                        </div>
+                    </div>
+                    :
+                    ''
+            }
+        </>
     )
 }
 

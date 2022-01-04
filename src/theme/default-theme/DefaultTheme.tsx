@@ -1,3 +1,5 @@
+import './style.css'
+
 import { About } from "../../components/about/About"
 import { AppHero } from "../../components/app-hero/AppHero"
 import { Contact } from "../../components/contact/Contact"
