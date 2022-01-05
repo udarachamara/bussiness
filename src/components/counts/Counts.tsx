@@ -15,7 +15,7 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-emoji-smile"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="10" className="purecounter"></span>
-                                        <p><strong>SOFTWARE DEVELOPMENT</strong>.</p>
+                                        <p><strong>Web Development</strong>.</p>
                                     </div>
                                 </div>
 
@@ -23,7 +23,7 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-journal-richtext"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="10" className="purecounter"></span>
-                                        <p><strong>WEB DEVELOPMENT</strong> </p>
+                                        <p><strong>Mobile Applications Development</strong> </p>
                                     </div>
                                 </div>
 
@@ -31,7 +31,7 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-clock"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" className="purecounter"></span>
-                                        <p><strong>Assignment</strong> </p>
+                                        <p><strong>Quality Assuarance Maintance</strong> </p>
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-clock"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" className="purecounter"></span>
-                                        <p><strong>SOCIAL MEDIA MARKETING</strong> </p>
+                                        <p><strong>UI/UX Designing</strong> </p>
                                     </div>
                                 </div>
 
@@ -47,7 +47,7 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-clock"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" className="purecounter"></span>
-                                        <p><strong>PROMOTIONAL SOLUTIONS</strong> </p>
+                                        <p><strong>Graphics Designing & Video Editing</strong> </p>
                                     </div>
                                 </div>
 
@@ -55,7 +55,23 @@ function Counts() {
                                     <div className="count-box">
                                         <i className="bi bi-award"></i>
                                         <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" className="purecounter"></span>
-                                        <p><strong>GRAPHICS DESIGNING</strong></p>
+                                        <p><strong>System Designing & Development</strong></p>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6 d-md-flex align-items-md-stretch">
+                                    <div className="count-box">
+                                        <i className="bi bi-clock"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" className="purecounter"></span>
+                                        <p><strong>Research & Assigment Writing</strong> </p>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6 d-md-flex align-items-md-stretch">
+                                    <div className="count-box">
+                                        <i className="bi bi-clock"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" className="purecounter"></span>
+                                        <p><strong>SEO</strong> </p>
                                     </div>
                                 </div>
                             </div>

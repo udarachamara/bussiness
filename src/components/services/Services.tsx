@@ -3,33 +3,43 @@ function Services() {
     const services = [
         {
             icon: 'bxl-dribbble',
-            title: 'Software Development.',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'Web Development',
+            description: 'Need a place for your bussiness on a cloude and reach the customers in world wide. Get started with us.'
         },
         {
             icon: 'bx-file',
-            title: 'Web Development.',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'Mobile Applications Development',
+            description: 'We developing application for personal and proffesional requirement. with trending software platform architectures.'
         },
         {
             icon: 'bx-tachometer',
-            title: 'Assignment',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'Quality Assuarance Maintance',
+            description: 'We doing QA for your existing Systems with fixing related bugs and assurance quality of the product.'
         },
         {
             icon: 'bx-world',
-            title: 'Social Media Marketing',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'UI/UX Designing',
+            description: 'Most creativity UI which increased the best customer experince. No any confused steps any more. Get started with us.'
         },
         {
             icon: 'bxl-dribbble',
-            title: 'Promotional Solutions',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'Graphics Designing & Video Editing',
+            description: 'Looking promotional addvertising skills. Don`t hestitate. The Creativity is Here.'
         },
         {
             icon: 'bx-file',
-            title: 'Graphic Designing',
-            description: 'We developing software for personal and proffesional requirement. solid in to trending software platform architecture.'
+            title: 'System Designing & Development',
+            description: 'Do you need to increase your bussiness preformance. This is the right place. Get started with us.'
+        },
+        {
+            icon: 'bx-file',
+            title: 'Research & Assigment Writing',
+            description: 'We have experinced team with skils that have analysis of information to increase understanding of a topic or issue.'
+        },
+        {
+            icon: 'bx-file',
+            title: 'SEO',
+            description: 'our engineers use best optimization tools and unique solution to improve things.we can increase traffic to your website and gain higher rank'
         }
     ]
 
